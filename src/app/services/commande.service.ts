@@ -12,6 +12,6 @@ export class CommandeService {
    }  
 
    getData(){
-    this.httpclient.get<MyInterface>("http://localhost:3000/commandes");
+   return this.httpclient.get<MyInterface>("http://localhost:3000/commandes");
    }
 }

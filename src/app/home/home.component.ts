@@ -7,14 +7,21 @@ import { CommandeService } from '../services/commande.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  constructor(private MyVar:CommandeService) { }
+  List:any= [];
+  constructor(private MyVar:CommandeService) { 
+ 
+  }
 
   ngOnInit(): void {
+    this.getCommande();
   }
 
   getCommande(){
-    this.MyVar.getData();
+    this.MyVar.getData().subscribe((result) => {
+      this.List = result;
+    })
+    
+    
   }
 
 
