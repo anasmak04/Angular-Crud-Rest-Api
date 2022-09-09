@@ -19,4 +19,8 @@ export class CommandeService {
    deleteData(id : number){
     return this.httpclient.delete(`${this.API}/${id}`)
    }
+
+   AddData(commandes:any){
+    return this.httpclient.post<MyInterface>(this.API,commandes);
+   }
 }

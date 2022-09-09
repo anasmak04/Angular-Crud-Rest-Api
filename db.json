@@ -5,12 +5,6 @@
       "name": "test",
       "poids": "1/2kg",
       "prix": "1000dh"
-    },
-    {
-      "id": 3,
-      "name": "test",
-      "poids": "1/2kg",
-      "prix": "1000dh"
     }
   ]
 }
