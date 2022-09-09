@@ -20,9 +20,19 @@ export class HomeComponent implements OnInit {
     this.MyVar.getData().subscribe((result) => {
       this.List = result;
     })
+
+    }
+
+    RemoveCommande(id:number){
+      this.MyVar.deleteData(id).subscribe(() => {
+          this.List = this.List.filter
+          ((data: { id: number; }) => data.id !== id)
+
+      })
+    }
+
+
     
     
   }
 
-
-}
