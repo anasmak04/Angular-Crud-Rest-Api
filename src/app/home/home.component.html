@@ -7,6 +7,7 @@
     id="exampleInputEmail1"
     aria-describedby="emailHelp"
     placeholder="Enter id"
+    #commande
   />
 </div>
 
@@ -18,6 +19,7 @@
     id="exampleInputEmail1"
     aria-describedby="emailHelp"
     placeholder="Enter name"
+    #commande
   />
 </div>
 
@@ -29,6 +31,7 @@
     id="exampleInputEmail1"
     aria-describedby="emailHelp"
     placeholder="Enter Poids"
+    #commande
   />
 </div>
 
@@ -40,10 +43,13 @@
     id="exampleInputEmail1"
     aria-describedby="emailHelp"
     placeholder="Enter Prix"
+    #commande
   />
 </div>
 
-<button type="submit" class="btn btn-primary">ADD</button>
+<button type="submit" class="btn btn-primary" (click)="AddCommande()">
+  ADD
+</button>
 
 <!-- table fetch data -->
 <table class="table">

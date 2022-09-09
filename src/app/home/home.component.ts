@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  AddCommande(item:any){
+    console.log(item)
+  }
+
 }
