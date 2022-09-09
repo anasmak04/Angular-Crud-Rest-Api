@@ -1,9 +1,17 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { MyInterface } from '../models/my-interface';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CommandeService {
 
-  constructor() { }
+  constructor(private httpclient:HttpClient) {
+
+   }  
+
+   getData(){
+    this.httpclient.get<MyInterface>("http://localhost:3000/commandes");
+   }
 }

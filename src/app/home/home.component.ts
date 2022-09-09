@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommandeService } from '../services/commande.service';
 
 @Component({
   selector: 'app-home',
@@ -7,13 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private MyVar:CommandeService) { }
 
   ngOnInit(): void {
   }
 
-  AddCommande(item:any){
-    console.log(item)
+  getCommande(){
+    this.MyVar.getData();
   }
+
 
 }
