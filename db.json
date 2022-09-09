@@ -1,35 +1,28 @@
 {
     "commandes": [
         {
-            "id" : 1,
-            "name" : "test",
-            "poids" : "1/2kg",
-            "prix" : "1000dh"
-
+            "id": 1,
+            "name": "test",
+            "poids": "1/2kg",
+            "prix": "1000dh"
         },
-
         {
-            "id" : 2,
-            "name" : "test",
-            "poids" : "1/2kg",
-            "prix" : "1000dh"
-
+            "id": 2,
+            "name": "test",
+            "poids": "1/2kg",
+            "prix": "1000dh"
         },
-
         {
-            "id" : 3,
-            "name" : "test",
-            "poids" : "1/2kg",
-            "prix" : "1000dh"
-
+            "id": 3,
+            "name": "test",
+            "poids": "1/2kg",
+            "prix": "1000dh"
         },
-
         {
-            "id" : 4,
-            "name" : "test",
-            "poids" : "1/2kg",
-            "prix" : "1000dh"
-
+            "id": 4,
+            "name": "test",
+            "poids": "1/2kg",
+            "prix": "1000dh"
         }
     ]
 }
