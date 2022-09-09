@@ -1,88 +1,82 @@
-  <h1>add new commande</h1>
-  <div class="form-group">
-    <label for="exampleInputEmail1">id</label>
-    <input
-      type="number"
-      class="form-control"
-      id="exampleInputEmail1"
-      aria-describedby="emailHelp"
-      placeholder="Enter id"
-    />
-  </div>
+<h1>add new commande</h1>
+<div class="form-group">
+  <label for="exampleInputEmail1">id</label>
+  <input
+    type="number"
+    class="form-control"
+    id="exampleInputEmail1"
+    aria-describedby="emailHelp"
+    placeholder="Enter id"
+  />
+</div>
 
-  <div class="form-group">
-    <label for="exampleInputEmail1">name</label>
-    <input
-      type="text"
-      class="form-control"
-      id="exampleInputEmail1"
-      aria-describedby="emailHelp"
-      placeholder="Enter name"
-    />
-  </div>
+<div class="form-group">
+  <label for="exampleInputEmail1">name</label>
+  <input
+    type="text"
+    class="form-control"
+    id="exampleInputEmail1"
+    aria-describedby="emailHelp"
+    placeholder="Enter name"
+  />
+</div>
 
-  <div class="form-group">
-    <label for="exampleInputEmail1">Poids</label>
-    <input
-      type="text"
-      class="form-control"
-      id="exampleInputEmail1"
-      aria-describedby="emailHelp"
-      placeholder="Enter Poids"
-    />
-  </div>
+<div class="form-group">
+  <label for="exampleInputEmail1">Poids</label>
+  <input
+    type="text"
+    class="form-control"
+    id="exampleInputEmail1"
+    aria-describedby="emailHelp"
+    placeholder="Enter Poids"
+  />
+</div>
 
-  <div class="form-group">
-    <label for="exampleInputEmail1">Prix</label>
-    <input
-      type="number"
-      class="form-control"
-      id="exampleInputEmail1"
-      aria-describedby="emailHelp"
-      placeholder="Enter Prix"
-    />
-  </div>
+<div class="form-group">
+  <label for="exampleInputEmail1">Prix</label>
+  <input
+    type="number"
+    class="form-control"
+    id="exampleInputEmail1"
+    aria-describedby="emailHelp"
+    placeholder="Enter Prix"
+  />
+</div>
 
-  <button type="submit" class="btn btn-primary">ADD</button>
+<button type="submit" class="btn btn-primary">ADD</button>
 
-
-  <!-- table fetch data -->
-  <table class="table">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-      </tr>
-    </tbody>
-
-    <tfoot>
-      <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-      </tr>
-    </tfoot>
-  </table>
+<!-- table fetch data -->
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">name</th>
+      <th scope="col">Poids</th>
+      <th scope="col">Prix</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td><button type="button" class="btn btn-danger">Delete</button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td><button type="button" class="btn btn-danger">Delete</button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td><button type="button" class="btn btn-danger">Delete</button></td>
+    </tr>
+  </tbody>
+</table>
